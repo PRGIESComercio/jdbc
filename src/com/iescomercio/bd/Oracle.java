@@ -13,7 +13,7 @@ import java.util.logging.Logger;
  *
  * @author ProfVespertino
  */
-public class Ejemplo1 {
+public class Oracle {
 
     /**
      * @param args the command line arguments
@@ -40,9 +40,9 @@ public class Ejemplo1 {
                 System.out.println("Nombre: " + x + " Edad: " + s + " Localidad: " + x2);
             }
         } catch (SQLException ex) {
-            Logger.getLogger(Ejemplo1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Oracle.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Ejemplo1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Oracle.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
